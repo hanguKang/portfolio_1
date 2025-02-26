@@ -1,9 +1,3 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
-// Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
-
 import { MENULINKS, SKILLS } from "../../constants";
 import Image from "next/image";
 import { MutableRefObject, useEffect, useRef, useState } from "react";
@@ -51,8 +45,7 @@ const SkillsSection = () => {
       <p className="section-title-sm seq">SKILLS</p>
       <h1 className="section-heading seq mt-2">My Skills</h1>
       <h2 className="text-2xl md:max-w-2xl w-full seq mt-2">
-        I like to take responsibility to craft aesthetic user experience using
-        modern frontend architecture.{" "}
+        사람들이 웹을 통해서 좋은 경험을 갖고 기억하게 하고 싶어.{" "}
       </h2>
     </div>
   );

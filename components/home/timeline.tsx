@@ -1,9 +1,3 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
-// Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
-
 import { MutableRefObject, useEffect, useRef, useState } from "react";
 import {
   Branch,
@@ -500,10 +494,10 @@ const TimelineSection = ({ isDesktop }: IDesktop) => {
 
   const renderSectionTitle = (): React.ReactNode => (
     <div className="flex flex-col">
-      <p className="section-title-sm seq">MILESTONES</p>
+      <p className="section-title-sm seq">이정표</p>
       <h1 className="section-heading seq mt-2">Timeline</h1>
       <h2 className="text-2xl md:max-w-2xl w-full seq mt-2">
-        A quick recap of proud moments
+        내가 지나온 소중한 것들
       </h2>
     </div>
   );

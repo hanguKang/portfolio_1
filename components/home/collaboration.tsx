@@ -1,8 +1,3 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
-// Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
 
 import { gsap, Linear } from "gsap";
 import { MutableRefObject, useEffect, useRef, useState } from "react";
@@ -98,8 +93,7 @@ const CollaborationSection = () => {
         willChange ? "will-change-opacity" : ""
       }`}
     >
-      Interested in <span className="text-strong font-bold">Collaboration</span>
-      ?
+      세상과 <span className="text-strong font-bold"> 하나씩 정확하게 </span> 맞춰서 나아가다. 
     </h1>
   );
 
